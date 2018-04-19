@@ -10,7 +10,6 @@ screen = pygame.display.set_mode((W,H))
 pygame.display.set_caption("Tetris")
 
 # set up game engine
-
 game = Engine(screen, Container())
 
 
@@ -32,7 +31,7 @@ while True:
     # set background
     screen.fill(BLACK)
 
-    # draw game items
+    # draw game to screen
     game.draw(screen)
 
     # redraw the screen
